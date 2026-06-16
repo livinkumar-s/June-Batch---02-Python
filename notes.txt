@@ -1,0 +1,35 @@
+Python:
+--------
+>> It is high-level, interpreted, OOP programming language.
+
+Human written code (print, input)
+|
+|(compilation)
+|
+Common Bytecode 
+|
+|(PVM)(Interpretation)
+|
+Machine Code 
+
+Command to execute python file --> pyhton filename.py
+
+Print Function
+------------------
+Ex: print(data)
+>> used to show data at the output
+
+python file(.py) --> code --> run
+
+Syntax 
+--------
+>> python is case-sensitive.(a is not A)
+>> indentation matters.(whitespaces added at the beginning of line(it defines block of code))
+
+Comments 
+---------
+>> comments are skipped by python.
+explains the code (readablity)
+
+single line comment --> #
+multi line comments --> ''' '''
