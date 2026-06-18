@@ -1,6 +1,6 @@
 Python:
 --------
->> It is high-level, interpreted, OOP programming language.
+>> It is high-level, interpreted, OOP programming language.(Dynamically Typed)
 
 Human written code (print, input)
 |
@@ -33,3 +33,32 @@ explains the code (readablity)
 
 single line comment --> #
 multi line comments --> ''' '''
+
+Variable 
+---------
+>> It is a named memory that stores a data.
+Ex: varName = val 
+
+Naming Rules 
+-------------
+>> Can contain letters, numbers, _.
+>> cannot start with numeric.
+>> No reserved keywords.
+
+Datatypes 
+-------------
+inbuilt method to check datatype --> type(obj)
+Integer ---> Whole Number. -1,0,1,2,3....
+Float ---> Decimal Numbers. 5.0, 4.44...
+
+String --> Sequence of chars.'' ""
+concatination --> combine 2 or more strings.(+)
+
+Boolean --> True, False
+
+Type Casting 
+-------------
+int(obj) --> int("55") --> 55
+float()
+str()
+bool()
