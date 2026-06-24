@@ -62,3 +62,58 @@ int(obj) --> int("55") --> 55
 float()
 str()
 bool()
+
+Operators 
+----------
+>> It is a symbol that performs an operation on 1 or more values.
+
+Arithmetic
+-----------
+Addition --> +
+Subtraction --> -
+multiplication --> *
+Division --> /
+Floor Div --> // (Quotient) 25//3 --> 8
+Modulus --> (reminder) % 25%3 --> 8*3 --> 24
+Exponentiation --> **
+
+Comparison (Boolean)
+-----------
+equal --> ==
+Not equal --> !=
+lesser than --> <
+greater than --> >
+lesser than or equal --> <=
+greater than or equal --> >=
+
+Logical operators (Boolean --> Baoolean)
+---------------------
+AND --> True --> when both are True. False --> Otherwise (and)
+OR --> True --> anyone or both are True. False --> Both are False
+NOT --> inverts boolean 
+
+Assignment 
+------------
+= --> assign 
++=
+-=
+*=
+/=
+//=
+%= 
+**=
+
+Bitwise 
+-----------
+AND --> & --> and operation between bits.
+OR --> |
+NOT --> ~ (~n = -(n+1))
+X-OR --> ^ (same --> 0. diff --> 1)
+Right Shift --> >>
+Left Shift --> <<
+
+Identity 
+-------------
+
+Membership
+-----------
