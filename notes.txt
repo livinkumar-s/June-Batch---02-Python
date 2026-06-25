@@ -21,6 +21,12 @@ Ex: print(data)
 
 python file(.py) --> code --> run
 
+Input 
+------
+>> prompt a data from user.
+Ex: input(expStr)
+>> It will always return a String.
+
 Syntax 
 --------
 >> python is case-sensitive.(a is not A)
@@ -117,3 +123,53 @@ Identity
 
 Membership
 -----------
+
+
+Control Flow
+------------
+>> Conditional Clauses --> if,else,elif
+>> Looping --> While, For.
+
+Conditional Clauses 
+--------------------
+if 
+---
+Syntax
+-------
+if condition:
+    block of code
+
+True --> executes the block.
+False --> won't execute.
+
+elif 
+--------
+Syntax 
+-------
+elif cond:
+    block
+
+True --> executes the block.
+False --> won't execute.
+
+else
+------
+Syntax 
+---------
+else:
+    block of code
+
+False --> executes the block.
+True --> won't execute.
+
+Nested If 
+-----------
+if cond1:
+    if cond2:
+        block of code
+
+Looping Statements 
+-----------------------
+While --> Condition Based Loop.
+For --> Sequence Based Loop.
+
