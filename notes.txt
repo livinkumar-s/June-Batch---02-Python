@@ -125,6 +125,22 @@ Membership
 -----------
 
 
+Sequence
+------------
+>> The object that can return its members one by one.
+Ex: String, List, Tuple, Set.....
+
+Indexing
+---------
+Index number starts with 0.
+a="Hello world"
+a[ind num] --> a[7] --> "o"
+a[-3] --> 'r'
+
+Slicing
+---------
+
+
 Control Flow
 ------------
 >> Conditional Clauses --> if,else,elif
@@ -173,3 +189,30 @@ Looping Statements
 While --> Condition Based Loop.
 For --> Sequence Based Loop.
 
+While Loop: (Condition based loop)(When the no of iteration is not known)
+--------------
+Syntax:
+--------
+while condition:
+    block of code
+
+>> as long as the condition stay True while loo will keep executing the block of code over and over again.
+
+For Loop: (Sequence Based Loop)(No of Iteration is Known)
+-------------
+Syntax:
+-------------
+for varName in Sequence:
+    block of code
+
+Range --> in built method to create temporary sequence.
+range --> sequence name.
+
+range(len) --> Ex: range(10) --> [0,1,2,3,...9]
+range(start,end) --> ex: range(15,25) -->[15,16...24]
+range(start,end,step) --> ex: range(20,30,1)-->[20,21,22...29]
+
+Control Statements of Loops 
+-----------------------------
+break ---> stop the loop
+continue ---> skip the current iteration

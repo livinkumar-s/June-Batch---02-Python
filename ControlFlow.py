@@ -55,15 +55,79 @@
 # else:
 #     print("Invalid Marks")
 
-num=int(input("Enter your Number: "))
+# num=int(input("Enter your Number: "))
 
-if num>10:
-    if num>15:
-        print("Very Large...!")
+# if num>10:
+#     if num>15:
+#         print("Very Large...!")
+#     else:
+#         print("Large")
+# else:
+#     if num<5:
+#         print("Very Small")
+#     else:
+#         print("Small")
+
+# Loop 
+
+# i=0
+
+# while i>5:
+#     print("Step1")
+#     print("Step2")
+#     print("Step3")
+#     print("-------------------")
+#     i-=1
+
+# no of iteration --> 0
+#i -->0,1,2,3,4,5
+
+# str1="Dhonihello"
+
+# print(str1[-4])
+
+# print(list(range(3,30,3)))
+
+# for x in range(10,20,2):
+#     print(x)
+#     print("-------------------")
+
+
+# No of Iteration --> 
+
+# 1-100
+# 100-1
+
+# for i in range(100, 0, -1):
+#     print(i)
+
+# Break 
+
+# i=1
+
+# while i<=100:
+#     if i<=50:
+#         break
+#     print(i)
+#     i+=1
+
+# no of iteration --> 51
+
+# for i in range(1,101):
+#     print(i)
+#     print("--------------")
+#     if i>50:
+#         continue
+
+# No of Iteration--> 100
+
+secret=33
+notFound=True
+
+while notFound:
+    inp=int(input("Enter the number: "))
+    if secret==inp:
+        print("You won..!")
+        notFound=False
     else:
-        print("Large")
-else:
-    if num<5:
-        print("Very Small")
-    else:
-        print("Small")
+        print("Try again..!")
