@@ -127,8 +127,9 @@ Membership
 
 Sequence
 ------------
+to find length of a seq--> len(seq)
 >> The object that can return its members one by one.
-Ex: String, List, Tuple, Set.....
+Ex: String, List, Tuple, Set, Dict...
 
 Indexing
 ---------
@@ -139,7 +140,12 @@ a[-3] --> 'r'
 
 Slicing
 ---------
-
+>> Extracting part of a sequence.
+Seq[start:]
+Seq[:end]
+Seq[start:end]
+Seq[start:end:step]
+Seq[::-1]
 
 Control Flow
 ------------
@@ -216,3 +222,47 @@ Control Statements of Loops
 -----------------------------
 break ---> stop the loop
 continue ---> skip the current iteration
+
+Data Structures 
+----------------
+>> It is a way of storing and organizing data.
+
+List 
+-------
+>> [ele1,ele2.....]
+>> Indexed (Ordered)
+>> It allows Duplicates
+>> Mutable (Updatable)
+
+In built methods 
+-----------------
+.append(ele)
+.insert(pos,ele)
+.extend(seq)
+
+.remove(ele) first occur
+.pop(ind)
+.pop()
+
+.count(ele) --> no of occur
+.index(ele)
+
+.reverse()
+.sort()
+.copy()
+
+Tuple 
+------
+>> (e1,e2...)
+>> It allows Duplicates
+>> Ordered 
+>> Immutable
+
+In built methods 
+-----------------
+.count(ele) --> no of occur
+.index(ele)
+
+Unpacking of Tuple/List
+-------------------
+v1,v2,v3=Tuple
