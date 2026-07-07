@@ -68,6 +68,10 @@ int(obj) --> int("55") --> 55
 float()
 str()
 bool()
+list()
+tuple()
+set()
+dict()
 
 Operators 
 ----------
@@ -266,3 +270,38 @@ In built methods
 Unpacking of Tuple/List
 -------------------
 v1,v2,v3=Tuple
+
+Set 
+----
+>> {ele1, ele2.....}
+>> It doesn't allow Duplicates
+>> Mutable 
+>> Unordered (not Indexed)
+>> Iterable
+
+
+In built methods 
+------------------
+.add(ele)
+.remove(ele)
+.clear()
+
+.union(s1)
+.intersection(s1)
+.difference(s1)
+
+Dict 
+--------
+>> {key1:val1, key2:val2......}
+>> keys should be unique.
+>> Mutable 
+>> Ordered 
+
+In built methods 
+-------------------
+.pop(key)
+.clear()
+
+.keys()
+.values()
+.items()

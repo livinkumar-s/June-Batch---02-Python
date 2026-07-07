@@ -61,3 +61,38 @@ l1=[1,2,3,5.5,"Hello",False,1]
 # role=Person[2]
 
 # print(role)
+
+# Set 
+
+s1={44,55,33,2,1}
+s2={5,6,7,8,9,10,1,2,3}
+
+# s1.add(51)
+# s1.remove(33)
+# s1.clear()
+
+
+
+# print(s1.union(s2))
+# print(s1.intersection(s2))
+# print(s2.difference(s1))
+
+# for i in s1:
+#     print(i)
+
+# Dict 
+
+d1={
+    "name":"ken",
+    "age":44,
+    "isMarried":True
+}
+# d1["age"]=45
+# d1["role"]="FED"
+# d1.pop("isMarried")
+# d1.clear()
+# print(list(d1.keys()))
+# print(d1.values())
+# print(d1.items())
+
+l1=[324,213,213,234,123,234,213]
