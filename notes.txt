@@ -58,7 +58,42 @@ Integer ---> Whole Number. -1,0,1,2,3....
 Float ---> Decimal Numbers. 5.0, 4.44...
 
 String --> Sequence of chars.'' ""
+Immutable.
+Indexed.
 concatination --> combine 2 or more strings.(+)
+Repetition --> repeat a string sequence --> str * num
+
+Inbuilt methods 
+---------------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.strip()
+.lstrip()
+.rstrip()
+
+.split(sep)
+.join(seq)
+
+.find(subStr)
+.count(subStr)
+
+.startswith(subStr)
+.endswith(subStr)
+.isalpha()
+.isdigit()
+.isalnum()
+
+Formatted String 
+--------------------
+>> f"  {var}  {var} ....."
+
+Escape Characters 
+-------------------
+\t ---> tab space
+\n ---> new line
 
 Boolean --> True, False
 
@@ -349,3 +384,13 @@ To return a data to the caller.
 
 Scopes 
 -------
+>> It refers to a place where a variable is accessible.
+Local Scope --> Variable created inseide a function.
+Global Scope --> outside of any functions.
+In built scope --> print, input....
+Enclosing Scope ---> variable created in outer function is accessible in inner function.
+
+Nested Loop 
+------------
+
+

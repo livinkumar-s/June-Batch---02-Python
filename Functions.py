@@ -49,3 +49,41 @@
 
 # a=input("Enter you fav cricketer: ")
 # print(a)
+
+# a=10
+
+# def dummy():
+#     a=15 #creating a new local scoped var.
+#     print(a)
+
+# dummy()
+# print(a)
+
+# age=10 #global
+
+# def incAge():
+#     global age
+#     age+=1
+
+# incAge()
+# incAge()
+# incAge()
+# incAge()
+# incAge()
+# incAge()
+# incAge()
+# incAge()
+# print(age)
+
+
+# def outer():
+#     a=10
+#     def inner():
+#         print(a)
+#         print("From inner")
+    
+#     inner()
+
+# print,input...
+
+# outer()
