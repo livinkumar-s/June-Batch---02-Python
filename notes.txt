@@ -262,6 +262,11 @@ Control Statements of Loops
 break ---> stop the loop
 continue ---> skip the current iteration
 
+Nested Loop 
+------------
+loop1:
+    loop2
+
 Data Structures 
 ----------------
 >> It is a way of storing and organizing data.
@@ -390,7 +395,5 @@ Global Scope --> outside of any functions.
 In built scope --> print, input....
 Enclosing Scope ---> variable created in outer function is accessible in inner function.
 
-Nested Loop 
-------------
 
 

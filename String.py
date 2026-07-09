@@ -59,8 +59,32 @@
 
 # str1='I\'m Lee. I said "Hello"'
 
-str1='''Hello
-Hi
-world'''
+# str1='''Hello
+# Hi
+# world'''
 
-print(str1)
+# print(str1)
+
+
+# for i in range(5):
+#     print("From outer Loops...!")
+#     for j in range(5):
+#         print("From inner loop..!")
+
+# i=0,1,2,3,4
+
+# for i in range(1,6):
+#     for j in range(1,6):
+#         if i==1 or i==5 or j==5 or j==1:
+#             print("* ",end="")
+#         else:
+#             print("  ",end="")
+#     print()
+
+# i = 1,2,3,4,5
+# 1,1
+
+for i in range(3):
+    for j in range(3):
+        for k in range(3):
+            print("Hi")
