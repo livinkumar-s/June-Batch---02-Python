@@ -159,10 +159,11 @@ Left Shift --> <<
 
 Identity 
 -------------
+is, is not.
 
 Membership
 -----------
-
+in, not in
 
 Sequence
 ------------
@@ -395,5 +396,51 @@ Global Scope --> outside of any functions.
 In built scope --> print, input....
 Enclosing Scope ---> variable created in outer function is accessible in inner function.
 
+File Handling
+--------------
+text .csv json html py
+
+To open a file ---> open(addr, mode)
+To close a file --> .close()
+
+To read the whole content --> .read()
+To read line by line --> readline(), readlines()
+
+To write content into a file --> .write(content)
+
+Modes 
+---------
+Read ---> r 
+Write --> w(over write)
+Append --> a
+create --> x
+
+with open() as var:
+    block
 
 
+Error Handling
+----------------
+Error is a problem the stops the code from running properly.
+
+Syntax Errors 
+------------------
+>> It occurs when you make error with syntax.
+Ex: SyntaxError, IndentationError....
+
+Runtime Errors (Exception)
+----------------
+>> It occurs during Runtime.
+Ex: NameError, TypeError, ValueError, ZeroDivisionError.
+
+Exception Handling
+--------------------
+try:
+    block of code 
+except errName:
+     Handling block
+finally:
+     Block of code
+
+OOP - Object Oriented Programming
+----------------------------------
