@@ -444,3 +444,38 @@ finally:
 
 OOP - Object Oriented Programming
 ----------------------------------
+>> It is a programming pattern that organizes code into objects.
+
+Object --> Data(Attributes) --> Functionalities(Methods).
+
+Blue print --> Obj1, obj2...
+class ---> objects..obj1,obj2...
+
+Class:
+----------
+class ClsName:
+    to define attribute 
+    def __init__(self):
+        attributes 
+
+Instantiation --> ClsName()
+
+Attributes 
+-----------
+Class Attributes --> accessible from class
+Instance Attributes --> it is accessible only from objects
+
+Methods 
+----------
+Instance Methods -> access instance attributes(self)
+Class Methods -> access class attributes(cls)
+Static Methods -> no attribute
+
+Self 
+-----
+>> the object.
+
+Encapsulation
+Inheritance 
+Poly
+Abstraction 
